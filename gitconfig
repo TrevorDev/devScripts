@@ -1,8 +1,12 @@
 [user]
-	email = trevorjbaron@gmail.com
+        email = trevorjbaron@gmail.com
+        name = Trevor
+[credential]
+        helper = cache --timeout=28800
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	add-co = !git add -A && git commit
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        add-co = !git add -A && git commit
+

@@ -8,5 +8,5 @@
         ci = commit
         st = status
         br = branch
-        add-co = !git add -A && git commit
+        add-ci = !git add -A && git commit
 

@@ -1,0 +1,30 @@
+-SETTINGS
+	compiz-manager
+	enable multiple workspaces
+	hide unity launcher
+
+-APPS
+	chrome
+	skype
+		sudo sh -c 'echo "deb http://archive.canonical.com/ quantal partner" 
+		sudo apt-get update
+		sudo apt-get install skype
+
+	sublime text
+	mysql workbench
+
+-COMMANDLINE
+	nvm
+	vim
+	nodejs
+	git
+	mysql
+	apt-get install mysql-server
+		*you must create the databases yourself :(
+		*dont forget to create coyoteFiles folder
+	ssh
+	synaptic package manage
+	sshpass
+
+-PRODUCTION Extras
+	haproxy
